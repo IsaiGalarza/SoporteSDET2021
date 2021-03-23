@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="19" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-22T22:54:01 BOT" name="Suite" finished-at="2021-03-22T22:55:07 BOT" duration-ms="65969">
+    <groups>
+    </groups>
+    <test started-at="2021-03-22T22:54:01 BOT" name="Test Framework" finished-at="2021-03-22T22:55:07 BOT" duration-ms="65969">
+      <class name="com.numeral16to19.test.TestMarketPlace">
+        <test-method signature="visitarMarketPlace()[pri:3, instance:com.numeral16to19.test.TestMarketPlace@279fedbd]" started-at="2021-03-22T22:54:34 BOT" name="visitarMarketPlace" finished-at="2021-03-22T22:54:39 BOT" duration-ms="4767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visitarMarketPlace -->
+        <test-method signature="verDetalleLdap()[pri:4, instance:com.numeral16to19.test.TestMarketPlace@279fedbd]" started-at="2021-03-22T22:54:39 BOT" name="verDetalleLdap" finished-at="2021-03-22T22:54:41 BOT" duration-ms="2208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verDetalleLdap -->
+        <test-method signature="verDetalleIntegration()[pri:5, instance:com.numeral16to19.test.TestMarketPlace@279fedbd]" started-at="2021-03-22T22:54:41 BOT" name="verDetalleIntegration" finished-at="2021-03-22T22:54:43 BOT" duration-ms="2176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verDetalleIntegration -->
+        <test-method signature="verDetalleCorporate()[pri:6, instance:com.numeral16to19.test.TestMarketPlace@279fedbd]" started-at="2021-03-22T22:54:43 BOT" name="verDetalleCorporate" finished-at="2021-03-22T22:54:45 BOT" duration-ms="2208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verDetalleCorporate -->
+        <test-method signature="verDetalleClaim()[pri:7, instance:com.numeral16to19.test.TestMarketPlace@279fedbd]" started-at="2021-03-22T22:54:45 BOT" name="verDetalleClaim" finished-at="2021-03-22T22:54:48 BOT" duration-ms="2288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verDetalleClaim -->
+        <test-method signature="confirmarCompraLdap()[pri:8, instance:com.numeral16to19.test.TestMarketPlace@279fedbd]" started-at="2021-03-22T22:54:48 BOT" name="confirmarCompraLdap" finished-at="2021-03-22T22:54:51 BOT" duration-ms="2864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmarCompraLdap -->
+        <test-method signature="instalarIntegration()[pri:9, instance:com.numeral16to19.test.TestMarketPlace@279fedbd]" started-at="2021-03-22T22:54:51 BOT" name="instalarIntegration" finished-at="2021-03-22T22:54:52 BOT" duration-ms="1120" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input id="MP_link" type="button" class="button current" value="Marketplace"> is not clickable at point (1506, 74). Other element would receive the click: <div id="disable-screen" class="overlay"></div>
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IGALARZA', ip: '169.254.187.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\igalarza\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60081}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c9593ed5373573f30e08c9cddc69b7ba]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="MP_link" type="button" class="button current" value="Marketplace"> is not clickable at point (1506, 74). Other element would receive the click: <div id="disable-screen" class="overlay"></div>
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IGALARZA', ip: '169.254.187.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\igalarza\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60081}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c9593ed5373573f30e08c9cddc69b7ba
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.numeral16to19.pages.HomePage.goToMarketPlace(HomePage.java:30)
+at com.numeral16to19.test.TestMarketPlace.instalarIntegration(TestMarketPlace.java:91)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instalarIntegration -->
+        <test-method signature="confirmarCompraCorporate()[pri:10, instance:com.numeral16to19.test.TestMarketPlace@279fedbd]" started-at="2021-03-22T22:54:52 BOT" name="confirmarCompraCorporate" finished-at="2021-03-22T22:54:59 BOT" duration-ms="7588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmarCompraCorporate -->
+        <test-method signature="confirmarCompraClaim()[pri:11, instance:com.numeral16to19.test.TestMarketPlace@279fedbd]" started-at="2021-03-22T22:54:59 BOT" name="confirmarCompraClaim" finished-at="2021-03-22T22:55:07 BOT" duration-ms="7378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmarCompraClaim -->
+      </class> <!-- com.numeral16to19.test.TestMarketPlace -->
+      <class name="com.numeral16to19.test.TestForgotPassword">
+        <test-method is-config="true" signature="iniciarDriver()[pri:0, instance:com.numeral16to19.test.TestForgotPassword@2a5c8d3f]" started-at="2021-03-22T22:53:52 BOT" name="iniciarDriver" finished-at="2021-03-22T22:54:01 BOT" duration-ms="8348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniciarDriver -->
+        <test-method signature="cambiarClave()[pri:1, instance:com.numeral16to19.test.TestForgotPassword@2a5c8d3f]" started-at="2021-03-22T22:54:01 BOT" name="cambiarClave" finished-at="2021-03-22T22:54:05 BOT" duration-ms="3929" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.numeral16to19.test.TestForgotPassword.cambiarClave(TestForgotPassword.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cambiarClave -->
+        <test-method signature="desistirCambioClave()[pri:2, instance:com.numeral16to19.test.TestForgotPassword@2a5c8d3f]" started-at="2021-03-22T22:54:05 BOT" name="desistirCambioClave" finished-at="2021-03-22T22:54:06 BOT" duration-ms="1633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desistirCambioClave -->
+        <test-method is-config="true" signature="finalizar()[pri:0, instance:com.numeral16to19.test.TestForgotPassword@2a5c8d3f]" started-at="2021-03-22T22:55:07 BOT" name="finalizar" finished-at="2021-03-22T22:55:08 BOT" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizar -->
+      </class> <!-- com.numeral16to19.test.TestForgotPassword -->
+      <class name="com.numeral16to19.test.TestHome">
+        <test-method signature="validarDashBoard()[pri:1, instance:com.numeral16to19.test.TestHome@752325ad]" started-at="2021-03-22T22:54:06 BOT" name="validarDashBoard" finished-at="2021-03-22T22:54:13 BOT" duration-ms="6652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validarDashBoard -->
+        <test-method signature="accederMarketPlace()[pri:2, instance:com.numeral16to19.test.TestHome@752325ad]" started-at="2021-03-22T22:54:13 BOT" name="accederMarketPlace" finished-at="2021-03-22T22:54:19 BOT" duration-ms="5772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accederMarketPlace -->
+        <test-method signature="irASuscribe()[pri:3, instance:com.numeral16to19.test.TestHome@752325ad]" started-at="2021-03-22T22:54:19 BOT" name="irASuscribe" finished-at="2021-03-22T22:54:22 BOT" duration-ms="2974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- irASuscribe -->
+        <test-method signature="irAHelp()[pri:4, instance:com.numeral16to19.test.TestHome@752325ad]" started-at="2021-03-22T22:54:22 BOT" name="irAHelp" finished-at="2021-03-22T22:54:24 BOT" duration-ms="1728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- irAHelp -->
+        <test-method signature="verNotificaciones()[pri:5, instance:com.numeral16to19.test.TestHome@752325ad]" started-at="2021-03-22T22:54:24 BOT" name="verNotificaciones" finished-at="2021-03-22T22:54:26 BOT" duration-ms="2386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verNotificaciones -->
+        <test-method signature="verInformacionApp()[pri:6, instance:com.numeral16to19.test.TestHome@752325ad]" started-at="2021-03-22T22:54:26 BOT" name="verInformacionApp" finished-at="2021-03-22T22:54:30 BOT" duration-ms="4545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verInformacionApp -->
+        <test-method signature="salirApp()[pri:7, instance:com.numeral16to19.test.TestHome@752325ad]" started-at="2021-03-22T22:54:30 BOT" name="salirApp" finished-at="2021-03-22T22:54:34 BOT" duration-ms="3663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salirApp -->
+      </class> <!-- com.numeral16to19.test.TestHome -->
+    </test> <!-- Test Framework -->
+  </suite> <!-- Suite -->
+  <suite started-at="2021-03-22T22:55:08 BOT" name="Suite Cucumber Example" finished-at="2021-03-22T22:57:34 BOT" duration-ms="146007">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner21@77f80c04]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner22@1dac5ef]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner23@5c90e579]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-03-22T22:55:08 BOT" name="Test RRHH Orange" finished-at="2021-03-22T22:57:34 BOT" duration-ms="146007">
+      <class name="Runner.TestRunner21">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.TestRunner21@77f80c04]" started-at="2021-03-22T22:55:08 BOT" name="setUpClass" finished-at="2021-03-22T22:55:08 BOT" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner21@77f80c04]" started-at="2021-03-22T22:55:08 BOT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-03-22T22:55:27 BOT" duration-ms="19250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Como Administrador deberia ingresar a la plataforma de RRHH Orange con mi usuario y contrase�a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner21@77f80c04]" started-at="2021-03-22T22:55:27 BOT" name="tearDownClass" finished-at="2021-03-22T22:55:27 BOT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner21 -->
+      <class name="Runner.TestRunner23">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.TestRunner23@5c90e579]" started-at="2021-03-22T22:55:48 BOT" name="setUpClass" finished-at="2021-03-22T22:55:48 BOT" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner23@5c90e579]" started-at="2021-03-22T22:55:48 BOT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-03-22T22:57:34 BOT" duration-ms="105538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Como Administrador deberia ingresar a la plataforma de RRHH Orange con mi usuario y contrasena]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner23@5c90e579]" started-at="2021-03-22T22:57:34 BOT" name="tearDownClass" finished-at="2021-03-22T22:57:34 BOT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner23 -->
+      <class name="Runner.TestRunner22">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.TestRunner22@1dac5ef]" started-at="2021-03-22T22:55:27 BOT" name="setUpClass" finished-at="2021-03-22T22:55:28 BOT" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner22@1dac5ef]" started-at="2021-03-22T22:55:28 BOT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-03-22T22:55:48 BOT" duration-ms="20471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Como Administrador deberia ingresar a la plataforma de RRHH Orange con mi usuario y contrase�a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner22@1dac5ef]" started-at="2021-03-22T22:55:48 BOT" name="tearDownClass" finished-at="2021-03-22T22:55:48 BOT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner22 -->
+    </test> <!-- Test RRHH Orange -->
+  </suite> <!-- Suite Cucumber Example -->
+</testng-results>

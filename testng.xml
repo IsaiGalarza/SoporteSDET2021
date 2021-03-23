@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Suite" parallel="false">
+  <test thread-count="4" name="Test Framework" preserve-order="true">
+    <classes>
+      <class name="com.numeral16to19.test.TestForgotPassword"/>
+       <class name="com.numeral16to19.test.TestHome"/>         
+      <class name="com.numeral16to19.test.TestMarketPlace"/>       
+    </classes>
+  </test> <!-- Test Framework --> 
+</suite> <!-- Suite -->

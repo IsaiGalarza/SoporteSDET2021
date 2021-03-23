@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="4" name="Test Framework(failed)" verbose="0">
+    <classes>
+      <class name="com.numeral16to19.test.TestMarketPlace">
+        <methods>
+          <include name="instalarIntegration"/>
+        </methods>
+      </class> <!-- com.numeral16to19.test.TestMarketPlace -->
+      <class name="com.numeral16to19.test.TestForgotPassword">
+        <methods>
+          <include name="iniciarDriver"/>
+          <include name="finalizar"/>
+          <include name="cambiarClave"/>
+        </methods>
+      </class> <!-- com.numeral16to19.test.TestForgotPassword -->
+    </classes>
+  </test> <!-- Test Framework(failed) -->
+</suite> <!-- Failed suite [Suite] -->
